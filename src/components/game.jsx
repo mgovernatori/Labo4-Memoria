@@ -14,12 +14,12 @@ function Game() {
 
    const sounds = {
       // sonidos para cada botón
-      green: new Audio("/public/sounds/green.mp3"),
-      red: new Audio("/public/sounds/red.mp3"),
-      yellow: new Audio("/public/sounds/yellow.mp3"),
-      blue: new Audio("/public/sounds/blue.mp3"),
-      lose: new Audio("/public/sounds/lose.mp3"), // cuando se pierde
-      play: new Audio("/public/sounds/play.mp3"), // cuando se juega o reintenta
+      green: new Audio("/sounds/green.mp3"),
+      red: new Audio("/sounds/red.mp3"),
+      yellow: new Audio("/sounds/yellow.mp3"),
+      blue: new Audio("/sounds/blue.mp3"),
+      lose: new Audio("/sounds/lose.mp3"), // cuando se pierde
+      play: new Audio("/sounds/play.mp3"), // cuando se juega o reintenta
    };
 
    const playSound = (color) => {
